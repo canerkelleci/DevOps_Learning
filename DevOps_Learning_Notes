@@ -1,0 +1,131 @@
+DevOps, yazilim gelistirme ve IT isletme sureclerinin birlestirilmesini amaclayan 
+bir felsefedir. Basarili bir DevOps sureci, sik sik degisen yazilim ihtiyaclarina hizli
+bir sekilde yanit vererek uygulamalarin hizli bir sekilde dagitilmasini saglar.
+
+DevOps ogrenmeye baslamak icin asagidaki adimlari takip edebilirsiniz:
+
+1. Temel kavramlari ogrenin: DevOps'ta kullanilan temel kavramlar ve terminoloji hakkinda 
+bilgi edinin. Bunu yapmak icin, DevOps'ta kullanilan arac ve sureclerin temelleri hakkinda 
+bircok cevrimici kaynak mevcuttur. Bu kaynaklardan bazilari, bloglar, videolar, kitaplar ve 
+ucretsiz cevrimici kurslar gibi kaynaklardir.
+
+2. Araclari ogrenin: DevOps araclari, uygulamalari hizli ve guvenli bir sekilde dagitmak icin 
+kullanilir. Bu araclar, uygulama gelistirme, surum kontrolu, test, CI/CD ve dagitim gibi 
+surecleri kolaylastiran araclardir. Bazi populer DevOps araclari arasinda Git, Jenkins, 
+Docker, Kubernetes, Ansible ve Terraform bulunur.
+
+3. Uygulama yasam dongusunu anlayin: DevOps, yazilim gelistirme ve isletme sureclerinin 
+birlestirilmesiyle ilgilidir. Bu nedenle, yazilimin yasam dongusu boyunca ne tur sureclerin 
+gerceklestirildigini ve hangi asamalarin DevOps'a uygun oldugunu anlamak onemlidir. 
+Uygulama gelistirme, test, yapilandirma yonetimi, dagitim ve isletme asamalari gibi konular 
+hakkinda bilgi edinmek icin cesitli kaynaklari inceleyebilirsiniz.
+
+5. Pratik yapin: DevOps, teorik bilgi kadar pratik beceriler de gerektirir. Bu nedenle, 
+DevOps araclarini kullanarak kendi uygulamalarinizi olusturup test ederek pratik yapin. 
+Bunu yapmak icin, GitHub, GitLab veya Bitbucket gibi bir surum kontrol sistemi kullanabilir 
+ve Jenkins veya Travis CI gibi bir surekli entegrasyon ve surekli dagitim araci 
+kullanabilirsiniz.
+
+6. Is birligi yapin: DevOps, bir ekip calismasidir ve yazilim gelistiricileri, isletme 
+muhendisleri, QA uzmanlari ve diger IT profesyonelleri arasinda guclu bir is birligi 
+gerektirir. Bu nedenle, diger IT profesyonelleriyle is birligi yaparak, farkli bakis 
+acilarindan ogrenebilir ve birbirinizin becerilerini gelistirebilirsiniz.
+
+DevOps'ta kullanilan temel kavramlar asagidaki gibidir:
+
+1. Surekli Entegrasyon (Continuous Integration - CI): Yazilim gelistirme surecinde sik sik 
+degisiklik yapmak ve bu degisiklikleri hizli bir sekilde entegre etmek amaciyla kullanilan 
+bir yontemdir. Surekli entegrasyon, kodun sik sik kontrol edilmesini, test edilmesini ve 
+birlestirilmesini icerir.
+
+    -Kullanilan Toollar
+        *Jenkins
+        *Travis CI
+        *Circle CI
+        *GitLab CI/CD
+
+2. Surekli Teslimat (Continuous Delivery - CD): Yazilimin musterilere hizli ve guvenli bir 
+sekilde teslim edilmesini saglamak icin kullanilan bir yontemdir. Surekli teslimat, yazilimin 
+yapilandirilmasi, test edilmesi ve paketlenmesi islemlerini icerir.
+
+    -Kullanilan Toollar
+        *Jenkins
+        *Travis CI
+        *Circle CI
+        *GitLab CI/CD
+        *Ansible
+        *Docker
+        *Kubernetes
+        *Selenium
+
+3. Surekli Dagitim (Continuous Deployment - CD): Yazilimin otomatik olarak ve mudahale 
+olmadan uretim ortamina dagitilmasini saglamak icin kullanilan bir yontemdir. Surekli 
+dagitim, surekli teslimatin bir sonraki asamasidir.
+
+    -Kullanilan Toollar
+        *AWS CodePipeline
+        *GitLab CI/CD
+        *Jenkins X
+        *Spinnaker
+        *Circle CI
+
+4. Izleme ve Geri Bildirim (Monitoring and Feedback): Yazilimin uretim ortaminda calisirken 
+performansini, hatalarini ve kullanimini izlemek ve geri bildirim almak icin kullanilan bir 
+yontemdir. Izleme ve geri bildirim, uygulamanin hizli bir sekilde iyilestirilmesine ve 
+hatalarin hizli bir sekilde giderilmesine yardimci olur.
+    
+    -Kullanilan Toollar
+        *Prometheus
+        *Nagios
+        *ELK Stack
+        *Grafana
+        *Jenkins
+
+5. Yapilandirma Yonetimi (Configuration Management): Yazilimin farkli ortamlarda (gelistirme, 
+test, uretim vb.) calismasi icin gerekli yapilandirmalarin yonetilmesini saglayan bir 
+yontemdir. Yapilandirma yonetimi, uygulamanin farkli ortamlarda sorunsuz bir sekilde 
+calismasini saglar.
+
+    -Kullanilan Toollar
+        *Ansible
+        *Puppet
+        *Chef
+        *SaltStack
+        *Docker
+        *Kubernetes
+
+6. Otomasyon (Automation): DevOps'ta, yazilim gelistirme ve isletme sureclerinde 
+otomatiklestirilmesi gereken bircok islem vardir. Otomasyon, bu islemlerin otomatik hale 
+getirilerek zaman ve caba tasarrufu saglar.
+    
+    -Kullanilan Toollar
+        *Jenkins
+        *Travis CI
+        *Circle CI
+        *GitLab
+        *Ansible
+        *Puppet
+
+7. Yuksek Kullanilabilirlik (High Availability): Uygulamanin, kesintisiz bir sekilde 
+calismasini saglamak icin yapilan calismalari ifade eder. Bu, yedekleme, yuk dengeleme, 
+veri kurtarma vb. gibi islemleri icerir.
+
+    -Kullanilan Toollar
+        *Kubernetes
+        *AWS
+        *Load Balancer
+        *Apache Cassandra
+        *Redis
+        *HAProxy
+
+8. Gorevlerin Otomatiklestirilmesi (Task Automation): Tekrarlayan islemlerin
+otomatiklestirilmesi ile zaman ve caba tasarrufu saglanir. ornegin, kodu test etmek, 
+derlemek, paketlemek gibi islemler otomatik hale getirilebilir.
+
+    -Kullanilan Toollar
+        *Ansible
+        *Puppet
+        *Chef
+        *Jenkins
+        *GitLab
+        *Rundeck

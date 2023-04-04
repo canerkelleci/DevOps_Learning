@@ -129,3 +129,31 @@ derlemek, paketlemek gibi islemler otomatik hale getirilebilir.
         *Jenkins
         *GitLab
         *Rundeck
+        
+ JENKINS KURULUM ve KULLANIM OZETI
+ 
+1. Jenkins'in yükleneceği bir bilgisayar sunucusu veya sanal makine hazırlayın. Jenkins, 
+Windows, Linux veya macOS dahil birçok platformda çalışabilir.
+2. Jenkins'in yükleneceği bir web tarayıcısı açın ve Jenkins web sitesine gidin: 
+https://www.jenkins.io/.
+3. Ana sayfanın üst kısmındaki "Download" bağlantısına tıklayın ve işletim sisteminize 
+uygun Jenkins sürümünü indirin.
+4. İndirilen dosyayı çalıştırın ve Jenkins kurulum sihirbazını izleyin.
+5. Kurulum tamamlandığında, Jenkins web arayüzüne erişmek için bir web tarayıcısı açın ve 
+"http://localhost:8080" adresini ziyaret edin.
+6. Jenkins web arayüzü açıldığında, "Admin Password" (Yönetici Şifresi) göreviyle karşılaşacaksınız. 
+Bu görev, Jenkins'i ilk kez çalıştırdığınızda, kurulum sırasında oluşturulan bir şifreyi girmenizi 
+gerektirir. Bu şifreyi girin ve "Continue" (Devam Et) düğmesine tıklayın.
+7. Jenkins daha sonra, yükleyebileceğiniz birçok farklı eklenti listesi sunacaktır. Bu eklentiler, 
+Jenkins'in işlevselliğini genişletmenize ve özelleştirmenize olanak tanır. İhtiyacınız olan 
+eklentileri seçin ve "Install" (Yükle) düğmesine tıklayın.
+8. Eklenti yükleme işlemi tamamlandığında, Jenkins kullanıma hazırdır.
+9. Jenkins projeleri, "Jenkinsfile" olarak adlandırılan özel bir dosyada tanımlanır. Bu dosyaları 
+Jenkins projelerinizi tanımlamak için kullanabilirsiniz. Jenkinsfile, projenizi oluşturmak, test 
+etmek, paketlemek ve yayınlamak için Jenkins iş akışı (pipeline) adı verilen bir araç kullanılarak 
+tanımlanır.
+10. Jenkins'de bir proje oluşturmak için, Jenkins web arayüzünde "New Item" (Yeni Öğe) düğmesine 
+tıklayın. Ardından, bir "Freestyle project" (Serbest stil projesi) veya "Pipeline" (İş akışı) 
+projesi oluşturabilirsiniz.
+11. Projenizi oluşturduktan sonra, Jenkins otomatik olarak tanımlı iş akışlarını (pipelines) veya 
+belirli eklentileri kullanarak projenizi çalıştırm
